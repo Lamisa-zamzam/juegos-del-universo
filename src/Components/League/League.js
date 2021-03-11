@@ -16,7 +16,7 @@ const League = (props) => {
             `https://www.thesportsdb.com/api/v1/json/1/lookupleague.php?id=${idLeague}`
         )
             .then((res) => res.json())
-            .then((data) => setLeagueDetail(data.leagues[0]))
+            .then((data) => setLeagueDetail(data.leagues[0]));
     }, [idLeague]);
 
     const { strBadge } = leagueDetail;
