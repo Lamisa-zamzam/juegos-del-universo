@@ -1,0 +1,33 @@
+.league {
+    border: none !important;
+    box-shadow: 10px 10px 10px gray;
+    text-align: center;
+    color: black;
+}
+
+.react-link:-webkit-any-link {
+    text-decoration: none;
+}
+
+.react-link:hover {
+    text-decoration: none;
+}
+
+.league-img {
+    height: 320px;
+    background-color: dodgerblue;
+}
+
+.league h5{
+    color: green;
+    font-size:22px;
+}
+
+.detailPoints{
+    color: green;
+    font-weight: 600;
+}
+
+.detailBtn {
+    box-shadow: 7px 7px 10px gray !important;
+}

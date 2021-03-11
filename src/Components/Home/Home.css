@@ -1,0 +1,26 @@
+.banner-div {
+    height: 300px;
+    width: 100%;
+    background-image: "https://png.pngtree.com/back_origin_pic/04/06/54/578a73de2481dd95eb3593e76dfe4d2a.jpg" !important;
+}
+
+.banner-div h1 {
+    padding-top: 50px;
+    font-size: 60px;
+    color: blue;
+    text-shadow: 10px 10px 10px rgb(59, 59, 248);
+}
+
+.banner-div h3{
+    font-weight: 700;
+}
+
+.banner-div h5 {
+    margin-top: -8px;
+    margin-bottom: 40px;
+}
+
+.main-part {
+    background-color:blanchedalmond;
+    padding-top: 50px;
+}
