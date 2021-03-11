@@ -61,8 +61,13 @@ const LeagueDetail = () => {
     let conditionalImg;
     if (strGender?.toLowerCase() === "male") {
         conditionalImg = manBarcelona;
-    } else if (strGender?.toLowerCase() === "female") {
+    } else if (
+        strGender?.toLowerCase() === "female" ||
+        strGender?.toLowerCase() === "mixed"
+    ) {
         conditionalImg = womanChelsea;
+    } else {
+        conditionalImg = manBarcelona;
     }
 
     return (
@@ -80,26 +85,29 @@ const LeagueDetail = () => {
                 <div className="brief-detail-container">
                     <Container className="brief-detail">
                         <Row>
-                            <Col className="col-md-6" style={{marginBottom: "30px"}}>
+                            <Col
+                                className="col-md-6"
+                                style={{ marginBottom: "30px" }}
+                            >
                                 {" "}
-                                <h2>{strLeague}</h2>
+                                <h3>{strLeague}</h3>
                                 <p>{strLeagueAlternate}</p>
-                                <h6>
+                                <h5>
                                     <FontAwesomeIcon icon={faMapMarkerAlt} />{" "}
                                     &nbsp;Founded: {intFormedYear}
-                                </h6>
-                                <h6>
+                                </h5>
+                                <h5>
                                     <FontAwesomeIcon icon={faFlag} />{" "}
                                     &nbsp;Country: {strCountry}
-                                </h6>
-                                <h6>
+                                </h5>
+                                <h5>
                                     <FontAwesomeIcon icon={faFutbol} />{" "}
                                     &nbsp;Sport Type: {strSport}
-                                </h6>
-                                <h6>
+                                </h5>
+                                <h5>
                                     <FontAwesomeIcon icon={faMars} />{" "}
                                     &nbsp;Gender: {strGender}
-                                </h6>
+                                </h5>
                             </Col>
                             <Col className="col-md-6 col-12">
                                 <img

@@ -31,14 +31,18 @@ const League = (props) => {
                     />
                     <Card.Body>
                         <h5>{strLeague}</h5>
-                        <p className="m-n1"><span className="detailPoints">Native Name: </span>{nativeName}</p>
-                        <p><span className="detailPoints">Sports Type: </span>{strSport}</p>
-                        <Link to={`/league/${idLeague}`}>
-                            <Button variant="success" className="detailBtn">
-                                Discover &nbsp;
-                                <FontAwesomeIcon icon={faArrowRight} />{" "}
-                            </Button>
-                        </Link>
+                        <p className="m-n1">
+                            <span className="detailPoints">Native Name: </span>
+                            {nativeName}
+                        </p>
+                        <p>
+                            <span className="detailPoints">Sports Type: </span>
+                            {strSport}
+                        </p>
+                        <Button variant="success" className="detailBtn">
+                            Discover &nbsp;
+                            <FontAwesomeIcon icon={faArrowRight} />{" "}
+                        </Button>
                     </Card.Body>
                 </Card>
             </Link>

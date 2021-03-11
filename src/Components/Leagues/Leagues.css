@@ -7,3 +7,7 @@
     height: 350px;
     background-repeat: no-repeat;
 }
+
+.spinner {
+    display: none;
+}
