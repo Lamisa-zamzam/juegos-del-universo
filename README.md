@@ -1,7 +1,7 @@
 # Juegoes del Universo
 # All the Leagues of the world
 
-This responsive project relates to games and sports. You can get detail information about all the leagues and the tournaments available. Moreover, my website is always up-to-date. So, never miss an update. Be of a sporting mentality.
+This responsive project relates to games, sports and the tournaments available. I used a third party API to load data about the leagues of different games. There are cards for each league and clicking on them, you can get vast information about that specific league. Moreover, my website is always up-to-date. So, never miss an update. Be of a sporting mentality.
 
 # Open [My Live Site](https://nostalgic-shannon-f859b3.netlify.app/) to see how it works.
 
