@@ -3,7 +3,7 @@
 
 This responsive project relates to games and sports. You can get detail information of all the leagues and the tournaments available. Moreover, my website is always up-to-date. So, never miss an update. Be of a sporting mentality.
 
-Open [My Live Site](http://localhost:3000) to see how it works in the browser.
+Open [My Live Site](http://localhost:3000) to see how it works.
 
 My project includes:
     1. [React](https://reactjs.org/docs/getting-started.html),\
@@ -13,4 +13,8 @@ My project includes:
     5. [Font Awesome](https://fontawesome.com/) and 
     6. [Third Party API](https://www.thesportsdb.com/).
 
-### `My Live Site`
+### `npm start`
+
+
+
+
