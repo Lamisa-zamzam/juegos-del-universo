@@ -10,5 +10,5 @@ My project includes:\
     2. [React Router](https://reactrouter.com/),\
     3. [React-Bootstrap](https://react-bootstrap.github.io/),\
     4. [Bootstrap](https://getbootstrap.com/) ,\
-    5. [Font Awesome](https://fontawesome.com/) and 
+    5. [Font Awesome](https://fontawesome.com/) and \
     6. [Third Party API](https://www.thesportsdb.com/).
