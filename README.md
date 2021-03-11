@@ -3,7 +3,7 @@
 
 This responsive project relates to games and sports. You can get detail information about all the leagues and the tournaments available. Moreover, my website is always up-to-date. So, never miss an update. Be of a sporting mentality.
 
-# Open [My Live Site](http://localhost:3000) to see how it works.
+# Open [My Live Site](https://upbeat-benz-598984.netlify.app/) to see how it works.
 
 My project includes:\
     1. [React](https://reactjs.org/docs/getting-started.html),\
