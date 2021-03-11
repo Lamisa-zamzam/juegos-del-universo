@@ -1,6 +1,15 @@
-# Getting Started with Create React App
+# Juegoes del Universo
+# All the Leagues of the world
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This responsive project relates to games and sports. You can get detail information of all the leagues and the tournaments available. Moreover, my website is always up-to-date. So, never miss an update. Be of a sporting mentality.
+
+My project includes:
+    1. [React](https://reactjs.org/docs/getting-started.html),
+    2. [React Router](https://reactrouter.com/),
+    3. [React-Bootstrap](https://react-bootstrap.github.io/),
+    4. [Bootstrap](https://getbootstrap.com/) ,
+    5. [Font Awesome](https://fontawesome.com/) and 
+    6. [Third Party API](https://www.thesportsdb.com/).
 
 ## Available Scripts
 
@@ -68,3 +77,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# react-router-Lamisa-zamzam
